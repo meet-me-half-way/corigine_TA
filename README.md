@@ -7,16 +7,25 @@ This program takes in a positive integer as an argument and computes the sum of 
 First the repository needs to be cloned to your local directiory. This can be done with the following command:
 ```
 git clone https://github.com/meet-me-half-way/corigine_TA.git
+cd corigine_TA
 ```
-The application is packed as a docker container. Thus, in order to install this application you need docker installed. The docker image can be built using the following command: 
+The application is packed as a docker container. Thus, in order to install this application you need docker installed. The docker image can be built using the following command on Windows OS: 
 ```
 docker build -t image_name .
+```   
+On Linux OS the command is:
+```
+sudo docker build -t image_name .
 ```   
 Here ```image_name``` is the name you choose for your image. 
 
 ## How to use
-Once the docker image, ```image_name``` , is created, the program can be run using the following command: 
+Once the docker image, ```image_name``` , is created, the program can be run using the following command on Windows OS: 
 ```
 docker run --rm image_name num
+```
+On Linux OS the command is:
+```
+sudo docker run --rm image_name num
 ```
 Here ```num``` is the positive integer that you want to pass to the application. 
