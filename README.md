@@ -1,7 +1,7 @@
 # Corigine Technical assesment
 
 ## Program description
-This program takes in a positive integer as an argument and computes the sum of all the individual digits of the factorial of the number provided as input. 
+This program takes in a positive integer as an argument and computes the sum of all the individual digits of the factorial of this number. 
 
 ## How to install
 First the repository needs to be cloned to your local directiory. This can be done with the following command:
