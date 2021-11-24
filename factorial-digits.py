@@ -19,8 +19,8 @@ if (num<0):
     sys.exit()
 factorial_vec = np.array([1])
 
-##loop through values from 1 to the number computing the multiplication 
-##one number at a time
+##loop through values from 1 to the number being factorialed, computing the 
+##multiplication  one number at a time
 for x in range(1,num+1): 
     left_over = 0
     ## compute the multiplication one digit at a time and save to factorial_vec
